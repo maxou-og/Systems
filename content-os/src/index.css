@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* Palette sombre de Content OS */
+  --color-surface-0: #0a0c11; /* fond de l'app */
+  --color-surface-1: #10131b; /* cartes et panneaux */
+  --color-surface-2: #171c27; /* survol / état actif */
+  --color-ligne: #1f2533; /* bordures */
+  --color-encre: #e8eaf0; /* texte principal */
+  --color-encre-2: #9aa3b5; /* texte secondaire */
+  --color-encre-3: #626c80; /* texte atténué */
+  --color-accent: #8b7cff; /* accent violet */
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-surface-0 text-encre antialiased;
+}
