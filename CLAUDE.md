@@ -48,6 +48,8 @@ eu-west-3). Pas de fichiers de données dans le repo.
   automatique à chaque push.
 - Un projet Vercel par système, avec *Root Directory* pointant sur le dossier
   du système (ex. `content-os`).
+- Content OS est en production : https://systems-henna.vercel.app/ (projet
+  Vercel `systems`, déployé depuis la branche par défaut du repo).
 
 ## Systèmes
 
