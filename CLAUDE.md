@@ -28,14 +28,17 @@ eu-west-3). Pas de fichiers de données dans le repo.
   publishable fournies en variables d'environnement (jamais en dur).
 - Convention : préfixer les tables par système (ex. `content_os_goals`) pour
   que plusieurs systèmes cohabitent dans le même projet Supabase.
+- Exception V1 (2026-06-13) : le contenu statique de référence de la Carte
+  système est temporairement codé en dur (`content-os/src/data/`) pour livrer la
+  MVP plus vite. Migration vers Supabase prévue ensuite.
 
 ## Préférences de travail d'Enzo (chaque session doit les respecter)
 
 - Toujours proposer un plan en bullets et ATTENDRE son OK avant de coder.
 - Poser des questions de clarification avant d'agir ; présenter les options
   avec avantages/inconvénients, ne pas décider à sa place.
-- Explications détaillées, étape par étape, en langage naturel : dire ce que
-  chaque changement fait concrètement.
+- Communication concise, droit au but. Pour le moment (V1), on se concentre sur
+  le rendu visuel (la forme) plutôt que sur de longues explications.
 - Toujours donner un niveau de confiance sur les réponses.
 - Gros commits groupés, pas de micro-commits.
 - Toute l'UI en français, avec tous les accents.
